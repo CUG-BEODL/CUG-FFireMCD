@@ -1,4 +1,4 @@
-# CUG-FFireMCD1
+# CUG-FFireMCD
 
 ### Dataset：CUG-Forest-Fire-MODIS-ChangeDetection-V1.0 
 
