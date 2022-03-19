@@ -16,4 +16,14 @@ To determine the location of the fire, we used [MODIS FireCCIE51 data](https://c
 
 CUG-FFireMCD1 has 132 time series data, each of which corresponds to a real fire event, is randomly selected in the fire area, and has at least one stable change point.  However, we still faced some problems. We could determine the exact date of the disturbance in the forest based on the event, but the disturbance points of other unknown events still needed to be marked. There might have been multiple hidden change points in a time series. Other label points were determined using four detection models(BFAST, Prophet, CCDC, LandTrendR), and this stage ensured the best accuracy of the label. Therefore, we set the labels of the dataset to two types: a reliable label and a label predicted by the models, which was for reference.
 
-
+#### Citation
+```
+@article{Yan2022InterCO,
+	title={Inter-Comparison of Four Models for Detecting Forest Fire Disturbance from MOD13A2 Time Series},
+	author={Jining Yan and Haixu He and Lizhe Wang and Hao Zhang and Dong Liang and Junqiang Zhang},
+	journal={Remote. Sens.},
+	year={2022},
+	volume={14},
+	pages={1446}
+}
+```
